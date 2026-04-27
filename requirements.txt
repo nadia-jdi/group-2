@@ -1,1 +1,18 @@
+#Project Requirements: Tic-Tac-Toe (C Language)
+📜
+## 1.Integrated Develeopement Environment (IDE)
+- Code :: Blocks 25.03
+- Compiler GNU GCC
+
+## 2. Language Standard
+- The code uses standard C libraries,stdio.h
+
+## 3.📚 Standard Libraries 
+- <stdio.h> : For input/output functions (printf, scanf, getchar).
+- <stdlib.h> : For memory and system management.
+
+## 4. Operating System
+- Windows 10
+
+## 5. Tools 
 
