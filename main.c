@@ -12,13 +12,13 @@ int checkwin();
 
 int main() {
     char response;
-  
+
     do {
         int player = 1;
         int choice, row, column, gameStatus = 0;
         char mark;
 
-        resetBoard(); 
+        resetBoard();
 
         while(1) {
             drawboard();
@@ -38,7 +38,7 @@ int main() {
             if (choice >= 1 && choice <= 9 && board[row][column] != P1_SYMBOL && board[row][column] != P2_SYMBOL) {
                 board[row][column] = mark;
             } else {
-                printf("Invalid move! Cell occupied or out of bounds.");
+                printf("Invalid move! Cell occupied or out of bounds.You will lose your turn!");
                 player--;
                 getchar(); getchar();
                 continue;
